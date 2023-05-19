@@ -14,7 +14,7 @@ const Home = () => {
   };
 
   return (
-    <nav className="flex absolute top-0 py-7 max-h-24 w-screen bg-lightgreen justify-between items-center font-comfortaa">
+    <nav className="flex fixed top-0 py-7 max-h-24 w-screen bg-lightgreen justify-between items-center font-comfortaa">
       <div>
         <NavLink exact to="/" className="font-bold text-3xl leading-10 text-center lowercase text-background mx-36">
           Lucas Null
