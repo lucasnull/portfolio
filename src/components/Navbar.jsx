@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink, useLocation, useMatch } from "react-router-dom";
 import linkedinIcon from "../assets/linkedinIcon.png";
 import githubIcon from "../assets/githubIcon.png";
+import logo from "../assets/logo-green-white.svg";
 
 const Home = () => {
   const location = useLocation();
@@ -16,8 +17,8 @@ const Home = () => {
   return (
     <nav className="flex fixed top-0 py-7 max-h-24 w-screen bg-lightgreen justify-between items-center font-comfortaa">
       <div>
-        <NavLink exact to="/" className="font-bold text-3xl leading-10 text-center lowercase text-background mx-36">
-          Lucas Null
+        <NavLink exact to="/" className="flex h-24 w-24 mx-36">
+          <img src={logo} alt="logo" />{" "}
         </NavLink>
       </div>
       <div>
